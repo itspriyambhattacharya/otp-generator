@@ -1,0 +1,12 @@
+name: Run C Code
+on:
+  push:
+    branches:
+      - "master"
+jobs:
+  job1:
+    name: First job1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Custom 1
+        run: echo "Hello World"
