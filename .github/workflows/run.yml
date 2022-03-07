@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Compile the Code
+      - uses: actions/checkout@v2
         run: gcc ../../otp.c
       - name: Run the Code
         run: ./a.exe
