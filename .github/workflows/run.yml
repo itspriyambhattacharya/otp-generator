@@ -5,8 +5,8 @@ on:
       - "master"
 jobs:
   job1:
-    name: First job1
+    name: Compile the C Code and Give Output
     runs-on: ubuntu-latest
     steps:
-      - name: Custom 1
+      - name: Compile and Run
         run: echo "Hello World"
