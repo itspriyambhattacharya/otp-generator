@@ -8,5 +8,7 @@ jobs:
     name: Compile the C Code and Give Output
     runs-on: ubuntu-latest
     steps:
-      - name: Compile and Run
-        run: echo "Hello World"
+      - name: Compile the Code
+        run: gcc otp.c
+      - name: Run the Code
+        run: ./a.exe
