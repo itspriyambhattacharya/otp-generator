@@ -14,3 +14,4 @@ jobs:
       - uses: rlalik/setup-cpp-compiler@v1
         with:
          compiler: latest
+      - run: gcc ../../otp.c
