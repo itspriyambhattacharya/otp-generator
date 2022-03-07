@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Compile the Code
-        run: gcc otp.c
+        run: gcc ./../../otp.c
       - name: Run the Code
         run: ./a.exe
